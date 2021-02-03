@@ -1,0 +1,31 @@
+{
+  "name": "spin-rewriter-api",
+  "description": "Spin Rewriter is a revolutionary article spinner that uses ENL Semantic Spinning to understand the meaning of text. It produces high quality, unique and readable spun articles with a click.",
+  "version": "1.0.0",
+  "keywords": [
+    "spinner",
+    "spinrewriter",
+    "seo",
+    "article",
+    "enl",
+    "semantic",
+    "language",
+    "writing",
+    "text"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Spin Rewriter",
+    "email": "info@spinrewriter.com",
+    "homepage": "https://www.spinrewriter.com"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "form-data": "latest",
+    "node-fetch": "latest"
+  }
+}
