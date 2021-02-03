@@ -22,7 +22,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/PELock/SpinRewriter-API-JavaScript"
   },
   "dependencies": {
     "form-data": "latest",
