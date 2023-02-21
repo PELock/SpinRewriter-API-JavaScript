@@ -6,7 +6,7 @@
  * Client scripts should use a 150-second timeout to allow for HTTP connection
  * overhead.
  *
- * SDK Version    : v1.0
+ * SDK Version    : v1.1
  * Language       : JavaScript (Node.js)
  * Dependencies   : spin-rewriter-api
  * Website        : https://www.spinrewriter.com/
@@ -21,13 +21,7 @@
 // Use direct name of the module from the NPM repository
 // You need to install it with the following command:
 // npm install spin-rewriter-api
-//const SpinRewriterAPI = require('spin-rewriter-api');
-
-// use import from your JS module
-//import SpinRewriterAPI from "../index.js"
-
-// use require from the pure JavaScript files and a local copy of Spin Rewriter SDK
-const SpinRewriterAPI = require('../index.js');
+import { SpinRewriterAPI } from "spin-rewriter-api";
 
 // your Spin Rewriter email address goes here
 let email_address = "test@example.com";

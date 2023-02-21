@@ -11,7 +11,7 @@
  * Client scripts should use a 150-second timeout to allow for HTTP connection
  * overhead.
  *
- * SDK Version    : v1.0
+ * SDK Version    : v1.1
  * Language       : JavaScript (Node.js)
  * Dependencies   : form-data, node-fetch
  * Website        : https://www.spinrewriter.com/
@@ -21,10 +21,11 @@
  *
  *****************************************************************************/
 
-const FormData = require('form-data');
-const fetch = require('node-fetch');
+// ES module style imports
+import FormData from 'form-data';
+import fetch from 'node-fetch';
 
-module.exports = class SpinRewriterAPI {
+export class SpinRewriterAPI {
 
    /**
     * Spin Rewriter API constructor, complete with authentication.
@@ -36,7 +37,7 @@ module.exports = class SpinRewriterAPI {
        this.data = {};
        this.data['email_address'] = email_address;
        this.data['api_key'] = api_key;
-       this.api_url = "http://www.spinrewriter.com/action/api";
+       this.api_url = "https://www.spinrewriter.com/action/api";
    }
 
     /**
